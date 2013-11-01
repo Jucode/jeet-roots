@@ -5,7 +5,7 @@ jeet-roots
 
 ####Installation
 - `npm install -g roots`
-- `roots template add jeet git@github.com:MojoTech/jeet-roots.git`
+- `roots template add jeet git@github.com:mojotech/jeet-roots.git`
 - Install [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
 ####Usage
