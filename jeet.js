@@ -1,7 +1,7 @@
 var autoprefixer = require('autoprefixer-stylus');
 
 module.exports = function(opts) {
-    var implicit = (opts && opts.implicit == false) ? false : true;
+    var implicit = (opts && opts.implicit === false) ? false : true;
 
     return function(style){
         // Include Jeet
