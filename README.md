@@ -6,7 +6,6 @@ jeet-roots
 ####Installation
 - `npm install -g roots`
 - `roots template add jeet git@github.com:mojotech/jeet-roots.git`
-- Install [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
 ####Usage
 - `roots new foo --jeet`
@@ -14,11 +13,6 @@ jeet-roots
 - `roots watch`
 - Enjoy [the perks](http://roots.cx/docs/#languages) of developing Jeet on Roots
 
-####Deployment
-- `roots deploy`
-- `heroku open`
-- Your Jeet/Roots project is now live.
-
-####Default Roots Projects to Jeet
+####Default Roots' Projects to Jeet
 - `roots template default jeet`
 - `roots new foo`
