@@ -1,7 +1,11 @@
 jeet-roots
 ==========
 
-**Note:** This template doesn't work in Roots right now. Roots doesn't rely on Jeet as a dependency and even if it did, these templates can't accept custom package functionality. For instance, Jeet requires Autoprefixer or else it gets pretty bonky. So we can either have Autoprefixer and this template not work, or Roots functionality and Jeet not work. Neither is plausible at this point. In a couple weeks when @jenius releases the new version of Roots, it will have flexibility/functionality like this and we'll update this repo.
+**Note:** This template doesn't work in Roots right now as Roots doesn't rely on Jeet as a dependency so only `nib` or `axis` can be passed to `css_library`.
+
+If you desperately want to use Jeet in Roots today, then fork Roots, add `"jeet": "4.1.x"` to it's list of dependencies in package.json, and then run `npm install -g` from that directory. This will overwrite your global Roots command line tool and allow Jeet to work.
+
+Around the middle of November Roots is expected to get a huge update where Jeet will be compatible. There is a prerelease to Roots available right now where Jeet is compatible.
 
 In the meantime, feel free to check out our [jeet-html](https://github.com/mojotech/jeet-html) boilerplate.
 
