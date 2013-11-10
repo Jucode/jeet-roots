@@ -1,0 +1,10 @@
+{
+    "name": "jeet-roots",
+    "version": "0.0.1",
+    "author": "Jeff Escalante <hello@jenius.me> / Cory Simmons <cory@mojotech.com> / MojoTech <mojotech.com>",
+    "description": "Jeet's Roots so you can have access to LiveReload, a plethora of language compilations, and CLI deployment.",
+    "dependencies": {
+        "jeet": "4.1.0",
+        "autoprefixer-stylus": "0.0.2"
+    }
+}
